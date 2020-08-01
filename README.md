@@ -10,4 +10,4 @@
    - PassportJs
  - Front-End
    - Android Studio
- - Retrofit class is used as a HTTP client
+ - Retrofit is used as a HTTP client
