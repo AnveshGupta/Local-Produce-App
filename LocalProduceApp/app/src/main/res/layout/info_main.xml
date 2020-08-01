@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/gradient1"
+tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="104dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="17dp"
+        android:gravity="center"
+        android:text="Info"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fnameedit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fname"
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="First Name"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/sname"
+        app:layout_constraintEnd_toStartOf="@+id/fnameedit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/fnameedit"
+        android:layout_width="308dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="First Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fname"
+        app:layout_constraintTop_toTopOf="@+id/fname"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/sname"
+        android:layout_width="106dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Second Name"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toStartOf="@+id/snameedit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname" />
+
+    <EditText
+        android:id="@+id/snameedit"
+        android:layout_width="305dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Second Name"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/sname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sname"
+        app:layout_constraintTop_toTopOf="@+id/sname" />
+
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="106dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Phone"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toStartOf="@+id/phoneedit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sname" />
+
+    <EditText
+        android:id="@+id/phoneedit"
+        android:layout_width="305dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Phone"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/phone"
+        app:layout_constraintTop_toTopOf="@+id/phone" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="106dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Address"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toStartOf="@+id/addressedit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    <EditText
+        android:id="@+id/addressedit"
+        android:layout_width="305dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Address"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/address"
+        app:layout_constraintTop_toTopOf="@+id/address"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="106dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="Account"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="305dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/age"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/age"
+        app:layout_constraintTop_toTopOf="@+id/age">
+
+        <RadioButton
+            android:id="@+id/Costumer"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Costomer"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/Business"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Business" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/info_update"
+        android:layout_width="154dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/textbg"
+        android:text="Update"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Item_view"
+    android:background="@drawable/gradient1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gradient1">
+
+        <ImageView
+            android:id="@+id/item_view_itemimage"
+            android:layout_width="match_parent"
+            android:layout_height="329dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_normal_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_view_itemname"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="Title"
+                android:textSize="40dp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_view_price"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"
+                android:text="Price" />
+
+            <TextView
+                android:id="@+id/item_view_seller"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="30dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:text="Seller" />
+
+            <TextView
+                android:id="@+id/item_view_selleraddress"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"
+                android:text="Address" />
+
+            <ImageButton
+                android:id="@+id/item_view_location_button"
+                android:layout_width="134dp"
+                android:layout_height="79dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@color/bggrad11"
+                app:srcCompat="@android:drawable/ic_dialog_map"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

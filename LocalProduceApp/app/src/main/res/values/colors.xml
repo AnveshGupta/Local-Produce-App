@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#ffffff</color>
+    <color name="bggrad11">#0c1857</color>
+    <color name="bggrad12">#7e88bd</color>
+    <color name="textbggrad11">#0c1e57</color>
+    <color name="textbggrad12">#7e8dbd</color>
+    <color name="infograd11">#e8e2b5</color>
+    <color name="infograd12">#e6c35c</color>
+</resources>

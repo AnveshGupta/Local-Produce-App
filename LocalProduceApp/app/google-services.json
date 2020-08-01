@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "458101179248",
+    "firebase_url": "https://e-dragon-261916.firebaseio.com",
+    "project_id": "e-dragon-261916",
+    "storage_bucket": "e-dragon-261916.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458101179248:android:5279539d99b907cd3f85b5",
+        "android_client_info": {
+          "package_name": "com.abc.localproduceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458101179248-3qe9gp4v2nt3bu7ahehtejtu9am5uuq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4NH1-iMc3GwMEUppeo746W2dDJ4M5gbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458101179248-3qe9gp4v2nt3bu7ahehtejtu9am5uuq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
