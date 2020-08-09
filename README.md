@@ -15,7 +15,7 @@
 Follow the steps to run the app on a emulator with a local server. For running the app in an Android Phone, the server can be hosted on an online platform.
 ## Clone the Repository
 ```
-git clone https://github.com/humangasaur/Local-Produce-App.git
+git clone https://github.com/AnveshGupta/Local-Produce-App.git
 ```
 ## Run the Server
 Install NodeJS and other required dependencies.
